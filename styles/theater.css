@@ -5,3 +5,19 @@ header {
 nav {
     background-color: aquamarine;
 }
+
+main {
+    background-color: aqua;
+}
+
+ul {
+    background-color: red;
+}
+
+li {
+    color: white;
+}
+
+footer {
+    color: green;
+}
