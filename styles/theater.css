@@ -1,23 +1,95 @@
+body{
+    background-image: url(../images/photo.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    file:///Users/kosetzer/Documents/Graph%20130/day-1/pages/theater2.html
+}
 header {
-    background-color:blue ;
+    
 }
 
+/* nav {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+header img {
+    display: block;
+    margin: auto;
+    height: 80%;
+    width: auto;
+}
+header {
+    background-color: rgb(250, 250, 244);
+}
 nav {
-    background-color: aquamarine;
+    
 }
-
-main {
-    background-color: aqua;
+nav p {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    color: darkgrey;
 }
-
-ul {
-    background-color: red;
-}
-
-li {
+nav, main, footer {
     color: white;
+    display: flex;
+    width:70%;
+    justify-content: center;
+    margin:30px auto;
+}
+main {
+
+}
+    article {
+        width:60%;
+        padding:10%;
+    }
+
+    article p {
+        border-bottom: solid 1px white;
+        padding-bottom: 10px ;
+    }
+
+
+main ul {
+    width:40%;
+    padding:10%;
+    align-self: flex-end;
+}
+main ul li {
+    list-style-type: none;
+    padding:10px;
+    margin: 10px;
+    border: solid white px1;
+    text-align: center;
+}
+main ul li:hover {
+    background-color: white;
+    color: darkslategray;
 }
 
-footer {
-    color: green;
+
+
+h1 {
+    font-size: 3em;
 }
+h2 {
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+
+footer a {
+    color: darkgoldenrod;
+}
+
