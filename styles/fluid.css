@@ -23,21 +23,37 @@ body {
     background-color: black;
     color: white;
 }
+section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 .em {
-    background-image: url(../images/h2woah.jpg);
+    background-image: url(../optimize-images/alma-snortum-phelps-Lo8pE-e3AiU-unsplash.jpg);
     border: solid darkorange 1em;
+    font-size: 1.2em;
 }
 .rem {
-    background-image: url(../images/wade.jpg);
+    background-image: url(../optimize-images/artem-militonian-UYW6FZLlnL8-unsplash.jpg);
+    border: dotted darkred .5rem;
 }
 .per {
-    background-image: url(../images/itswater.jpg);
+    background-image: url(../optimize-images/elizabeth-lies-ZWPerNlqUu0-unsplash.jpg);
+}
+.per p {
+    width: 75%;
 }
 .bs {
-
+    background-image: url(../optimize-images/j-k-4AQjVB2UrdU-unsplash.jpg);
+    box-sizing: border-box;
+    border:solid dodgerblue 3em;
 }
 .vw{
-
+    background-image: url(../optimize-images/nathan-dumlao-0tykfPL2U7w-unsplash.jpg);
+    border: dashed 1vw;
+    box-sizing: border-box;
+    font-size: 1vw;
 }
