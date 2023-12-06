@@ -1,7 +1,7 @@
 :root {
     --blue:#11467d;
     --green:#074817;
-    --white:#ffffff;
+    /*--white:#ffffff;*/
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
 }
@@ -115,4 +115,7 @@ main section {
 }
 .item2, .item4, .item6 {
     background-image: none;
+}
+h1 {
+    --white:#ffffff;
 }

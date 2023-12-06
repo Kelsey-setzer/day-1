@@ -39,7 +39,7 @@ nav li {
     display: block;
 }
 
-nav a, nav a:link, nav a:visited {
+/*nav a, nav a:link, nav a:visited {
     margin: auto;
     padding: .7em;
     display: block;
@@ -48,7 +48,7 @@ nav a, nav a:link, nav a:visited {
     background-color: #44a5b5;
     color: white;
     border: 1px solid white;
-}
+}*/
 
 nav a:hover {
     background-color: #344e5f;
